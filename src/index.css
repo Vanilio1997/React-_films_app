@@ -11,3 +11,34 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+nav{
+  padding: 0 1rem;
+}
+
+.content{
+  min-height:calc(100vh - 64px - 70px);
+  padding: 1.5rem 0;  
+}
+
+.movies{
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(300px,1fr ));
+  gap: 0.1rem;
+}
+
+.card{
+  height:500px ;
+  min-width: 260px;
+}
+.card-image img{
+  height: 400px;
+}
+
+.radioBtnBox{
+  margin-top: 30px;
+}
+
+label:not(:last-child){
+  margin-right: 1rem;
+}
